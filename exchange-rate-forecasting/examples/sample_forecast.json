@@ -1,0 +1,23 @@
+{
+  "forecast_origin": "2025-12-31",
+  "horizon_periods": 1,
+  "current_exchange_rate": 6.778414186018037,
+  "predicted_log_return": -0.002817083700624741,
+  "predicted_pct_change": -0.281311944375811,
+  "predicted_exchange_rate": 6.759345697273504,
+  "prediction_interval_exchange_rate": [
+    6.5548256316881135,
+    6.94383064982734
+  ],
+  "component_predictions": {
+    "elastic_net": -0.015792671375509888,
+    "random_forest": 0.0034094559915951957,
+    "hist_gradient_boosting": 0.0015185150577531228
+  },
+  "ensemble_weights": {
+    "elastic_net": 0.2901675152547572,
+    "random_forest": 0.36359950898992444,
+    "hist_gradient_boosting": 0.34623297575531825
+  },
+  "interval_method": "empirical out-of-fold residual quantiles"
+}
